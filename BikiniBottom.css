@@ -154,6 +154,7 @@ nav ul li:hover .dropdown {
 }
 
 .sidebar-right h4 {
+    margin-top: 10px;
     font-size: 20px;
     font-family: 'Comic Sans MS', cursive;
     color: #0099cc;

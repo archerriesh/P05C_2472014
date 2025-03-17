@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+nav{
+    background-color: skyblue;
+    display: sticky;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    display:block;
+}
+
+/* nav ul li ul{
+    display:none;
+    z-index:2;
+} */
+
+ 
+.dropdown{
+    list-style-type: none;
+}
+
+.dest-drop ul:hover li{
+    background-color: aqua;
+}
+
+.dest-drop:hover ul{
+     display: block;
+     background-color: skyblue;
+     border: 3px solid bisque;
+} 
+
+
+nav ul li ul {
+    background-color: blue;
+}
+
+
+#whole-page{
+    width: 500px;
+    border: 3px solid bisque;
+    background-color: white;
+    margin: auto;
+}
+
+.hero div{
+    background-color: black;
+    background-blend-mode: soft-light;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+}
+
+.content{
+    padding: 10px;
+}
+
+.hero h1{
+    font-size: 18px;
+}
+
+.hero p{
+    font-size: 15px;
+}
+
+h2{
+    color: skyblue;
+    font-size: 15px;
+}
+
+.kiri{
+    text-align: left;
+    list-style-type: none;
+}
+
+.kanan{
+    text-align: right;
+    list-style-type: none;
+}
+
+.kanan li{font-size: 11px;}
+.kiri li{font-size: 11px;}
+.kiri p{font-size: 11px;}
+
+footer{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 5px;  
+    margin:0;
+}

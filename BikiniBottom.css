@@ -1,6 +1,8 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     align-items: center;
+    background-image: url(/img/flower-cloud.jpg);
+    background-repeat: repeat;
 }
 
 nav{
@@ -25,12 +27,6 @@ nav li a{
     color: white;
     display:block;
 }
-
-/* nav ul li ul{
-    display:none;
-    z-index:2;
-} */
-
  
 .dropdown{
     list-style-type: none;
@@ -46,17 +42,11 @@ nav li a{
      border: 3px solid bisque;
 } 
 
-
-nav ul li ul {
-    background-color: blue;
-}
-
-
 #whole-page{
-    width: 500px;
-    border: 3px solid bisque;
+    width: 1000px;
+    border: 3px solid #ffcc00;
     background-color: white;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .hero div{
